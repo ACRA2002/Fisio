@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97D5B2; /* Verde suave, associado à fisioterapia */
+    text-align: center;
+}
+
+header {
+    background-color: #64A68A;
+    color: white;
+    padding: 20px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.specializations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.specialization {
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.specialization img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}

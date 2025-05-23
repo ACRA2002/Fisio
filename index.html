@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisioterapia - Especializações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica de Fisioterapia</h1>
+    </header>
+    
+    <section class="profile">
+        <img src="fisioterapeuta.jpg" alt="Foto da Fisioterapeuta">
+        <h2>Dr(a). Nome Sobrenome</h2>
+    </section>
+
+    <section class="specializations">
+        <div class="specialization" onclick="toggleContent('ortopedia')">
+            <img src="ortopedia.jpg" alt="Fisioterapia Ortopédica">
+            <h3>Ortopedia</h3>
+            <p id="ortopedia" class="hidden">A fisioterapia ortopédica ajuda na recuperação de lesões ósseas e musculares.</p>
+        </div>
+        <div class="specialization" onclick="toggleContent('neurologia')">
+            <img src="neurologia.jpg" alt="Fisioterapia Neurológica">
+            <h3>Neurologia</h3>
+            <p id="neurologia" class="hidden">A fisioterapia neurológica auxilia pacientes com doenças neuromusculares.</p>
+        </div>
+        <div class="specialization" onclick="toggleContent('pediatria')">
+            <img src="pediatria.jpg" alt="Fisioterapia Pediátrica">
+            <h3>Pediatria</h3>
+            <p id="pediatria" class="hidden">Tratamento fisioterapêutico para crianças, visando o desenvolvimento motor adequado.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
